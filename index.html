@@ -27,6 +27,17 @@
   
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="images/BB-Logo.png">
+	
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll("img").forEach(function(img) {
+      if (!img.hasAttribute("loading")) {
+        img.setAttribute("loading", "lazy");
+      }
+    });
+  });
+</script>
+
 </head>
 
 <html lang="tr" style="font-size: 16px;"><head><meta content="BEYBIL, kurumsal bilişim çözümleri, altyapı kurulumu, sistem desteği, danışmanlık ve hızlı teknik çözümler sunar. Güvenilir BT ortağınız." name="description"/><meta content="beybil, bilişim çözümleri, teknik destek, sistem danışmanlığı, BT altyapı, sunucu kurulum, network çözümleri" name="keywords"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta charset="utf-8"/><meta content="BEYBIL | Güvenilir BT Çözüm Ortağınız" property="og:title"/><meta content="Altyapı, sistem desteği, güvenlik çözümleri ve danışmanlıkta uzman marka." property="og:description"/><meta content="https://www.beybil.com/assets/logo.png" property="og:image"/><meta content="https://www.beybil.com/" property="og:url"/><meta content="website" property="og:type"/><link href="favicon.png" rel="icon" type="image/png"/>
